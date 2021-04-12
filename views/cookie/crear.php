@@ -6,12 +6,14 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1>Crea un usuario</h1>
     <form action="/cookie/guardar" method="post">
 
-    <label for="">dime  un nombre</label><br>
-    <input type="text" name="nombre" ><br>
-    <br>
-    <input type="submit" value="enviar">
+        <label>Nombre</label>
+        <input type="text" name="usuario">
+
+        <input type="submit" value="enviar">
 
     </form>
 </body>

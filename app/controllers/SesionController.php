@@ -26,5 +26,6 @@ class SesionController
 
         header('Location: /sesion/index');
        
+
     }
 }

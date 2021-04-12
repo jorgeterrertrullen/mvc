@@ -32,8 +32,10 @@ class UsuarioController
     }
 
     public function deseos(){
+
         $lista = $_POST["lista"];
         $deseo= $_POST["nuevodeseo"];
         $lista[] =$deseo;
+
     }
 }

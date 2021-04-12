@@ -6,13 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/sesion/guardar" method="post">
+    <h1>Lista de deseos</h1>
 
-    <label for="">dime  un nombre</label><br>
-    <input type="text" name="nombre" ><br>
-    <br>
-    <input type="submit" value="enviar">
+    <hr>
 
+    <h2>Deseo recibido ahora: </h2>
+
+    <hr>
+
+    <h2>Nuevo deseo</h2>
+    <form action="/usuario/mostrar" method="post">
+
+    
 
     </form>
 </body>

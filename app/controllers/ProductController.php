@@ -47,7 +47,6 @@ class ProductController
         echo "Borrar el usuario $id";        
     }
 
-
     public function store()
     {
         $product = new Product;
