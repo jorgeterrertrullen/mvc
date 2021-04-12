@@ -11,4 +11,8 @@ class ProductController
     {
         echo "En método index<br>";
     }
+    public function crear()
+    {
+        echo "crear un con";
+    }
 }
